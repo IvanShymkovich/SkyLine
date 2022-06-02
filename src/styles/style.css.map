@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,CAAC,CAAA;EACG,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,IAAI;AACJ,IAAI,CAAA;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CAEb;;AAED,AAAA,UAAU,CAAA;EACN,SAAS,EAAE,MAAM;EACjB,gBAAgB,EDbN,OAAO;CCcpB",
+    "sources": [
+        "style.scss",
+        "_variables.scss",
+        "_main.scss",
+        "_buttons.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
