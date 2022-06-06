@@ -1,0 +1,249 @@
+.head{
+    background: $color-black;
+    color: $color-wite;
+
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 10px;
+}
+header{
+    background-color: $color-headwite;
+
+    &__next{
+        background-color: $color-headwite;
+    }
+}
+
+.nav{
+    background-color: $color-headwite;
+    color: $color-black;
+
+    max-width: 1280px;
+    margin: 0 auto;
+
+    
+
+    &__img{
+        display: flex;
+        justify-content: space-between;
+        background-size: cover;
+        align-items: center;
+    }
+
+    &__text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__serch{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35px;
+        margin: 11px;
+        width: 37em;
+        border-color: $color-wite;
+        border-radius: 2em; 
+    }
+
+    &__text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &__account{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 4rem;
+        
+    }
+
+    &__dropmenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__usd{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__tab{
+        display: flex;
+    }
+
+    &__store{
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    &__storet{
+        color: $color-red;
+        padding-bottom: 10px;
+    }
+
+    &__svg{
+        height: 30px;
+    }
+}
+
+.banner{
+    background-color: $color-wite;
+
+    &__lists{
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        padding-left: 10em;
+    }
+
+    &__link{
+        padding-left: 1rem;
+    }
+
+    &__btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: $color-blue;
+        border: #c4c4c400;
+
+        border-radius: 4px;
+        width: 145px;
+        height: 40px;
+
+    }
+    
+    &__link{
+        display: flex;
+        text-decoration: none;
+        transition: .3s;
+        cursor: pointer;
+        outline: $color-wite;
+        }
+
+    &__text{
+            
+        color: $color-wite;
+    }
+    
+
+    &__btn::before{
+        content: url(../img/icons/ButtonElement.svg);
+    }
+
+} 
+
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    width: 46em;
+    
+    &__link{
+        display: flex;
+        text-decoration: none;
+        transition: .3s;
+        cursor: pointer;
+        outline: $color-blue;
+        color: $color-black;
+    }
+
+    &__linklast{
+        display: flex;
+        text-decoration: none;
+        transition: .3s;
+        cursor: pointer;
+        outline: $color-blue;
+        color: $color-red;
+    }
+}
+
+.menu{
+    background-image: url(../img/icons/bannermenu.svg);
+    width: 100%;
+    height: 464px;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10em;
+
+    background-size: cover;
+
+
+    &__bnr{
+        display: flex;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        color: $color-wite;
+    }
+
+    &__text{
+        display: flex;
+        padding-bottom: 7em;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: $color-wite;
+    }
+
+    &__btn{
+        justify-self: left;
+        width: 146px;
+        padding: 8px;
+        color: $color-wite;
+        border: 1px solid $color-wite;
+        border-radius: 24px;
+
+        text-align: center;
+        outline: none;
+        text-decoration: none;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+
+        display: flow-root;
+
+    }
+     
+}
+
+.container{
+    display: flex;
+
+    &__cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 343px;
+    
+        
+    }
+    &__text{
+        display: flex;
+    } 
+    &__sell{
+        justify-content: space-between; 
+   }
+}
+
+
