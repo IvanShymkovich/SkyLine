@@ -225,25 +225,6 @@ header{
      
 }
 
-.container{
-    display: flex;
 
-    &__cards{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        width: 343px;
-    
-        
-    }
-    &__text{
-        display: flex;
-    } 
-    &__sell{
-        justify-content: space-between; 
-   }
-}
 
 

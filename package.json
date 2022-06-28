@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "sass": "^1.52.1"
+    "sass": "^1.52.1",
+    "swiper": "^8.2.3"
   },
   "name": "skyline",
   "version": "1.0.0",
@@ -10,5 +11,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanShymkovich/SkyLine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IvanShymkovich/SkyLine/issues"
+  },
+  "homepage": "https://github.com/IvanShymkovich/SkyLine#readme",
   "description": ""
 }
